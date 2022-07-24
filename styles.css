@@ -1,0 +1,64 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  padding:0;
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+.flex-container
+{
+	
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+
+.icons
+{
+	display:flex;
+	
+}
+
+p
+{
+	padding:10px;
+}
+
+
+.flex-item1
+{
+	padding:20px;
+	display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+.glyphicon-star
+{
+	color:yellow;
+}
